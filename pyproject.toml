@@ -1,0 +1,54 @@
+[tool]
+[tool.poetry]
+name = "pyriksprot-lite"
+version = "0.5.19"
+description = "Welfare State Analytics - Riksdagens Protokoll"
+authors = ["Roger Mähler <roger.mahler@hotmail.com>"]
+packages = [{ include = "notebooks" }]
+classifiers = [
+    'License :: OSI Approved :: Apache Software License',
+    'Operating System :: OS Independent',
+    'Topic :: Software Development',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://westac.se"
+repository = "https://github.com/welfare-state-analytics/welfare_state_analytics"
+
+# FIXME: #137 Remove redundant dependencies
+[tool.poetry.dependencies]
+python = "==3.8.*"
+humlab-penelope = "^0.6.8"
+jupyterlab = "^3.2.9"
+jupyterlite = "^0.1.0-alpha.21"
+
+# bqplot
+# ipycanvas>=0.9.1
+# ipyleaflet
+# ipympl>=0.8.2
+# ipywidgets>=7.6
+# jupyterlab~=3.2.0
+# jupyterlab-drawio
+# jupyterlab-language-pack-fr-FR
+# jupyterlab-language-pack-zh-CN
+# jupyterlab-fasta>=3,<4
+# jupyterlab-geojson>=3,<4
+# jupyterlab-tour
+# jupyterlab_miami_nights
+# jupyterlite==0.1.0a19
+# jupyterlite-p5-kernel==0.1.0a12
+# jupyterlite-xeus-lua==0.2.0
+# jupyterlite-xeus-wren==0.1.2
+# jupyterlite-xeus-sqlite==0.1.2
+# plotly>=5,<6
+# theme-darcula
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
