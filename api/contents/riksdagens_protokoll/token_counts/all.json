@@ -1,0 +1,61 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-10T13:03:40.392359Z",
+      "format": null,
+      "last_modified": "2022-02-10T13:02:29.866461Z",
+      "mimetype": "text/x-python",
+      "name": "pos_statistics_gui.py",
+      "path": "riksdagens_protokoll/token_counts/pos_statistics_gui.py",
+      "size": 1481,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-10T13:03:40.392359Z",
+      "format": null,
+      "last_modified": "2022-02-10T13:02:29.866461Z",
+      "mimetype": "text/x-python",
+      "name": "pos_statistics.py",
+      "path": "riksdagens_protokoll/token_counts/pos_statistics.py",
+      "size": 1510,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-10T13:03:40.392359Z",
+      "format": null,
+      "last_modified": "2022-02-10T13:02:29.866461Z",
+      "mimetype": "text/x-python",
+      "name": "__init__.py",
+      "path": "riksdagens_protokoll/token_counts/__init__.py",
+      "size": 60,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-10T13:03:40.392359Z",
+      "format": null,
+      "last_modified": "2022-02-10T13:02:29.866461Z",
+      "mimetype": null,
+      "name": "pos_statistics.ipynb",
+      "path": "riksdagens_protokoll/token_counts/pos_statistics.ipynb",
+      "size": 2067,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-10T13:03:40.392359Z",
+  "format": "json",
+  "last_modified": "2022-02-10T13:03:40.392359Z",
+  "mimetype": null,
+  "name": "token_counts",
+  "path": "riksdagens_protokoll/token_counts",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
