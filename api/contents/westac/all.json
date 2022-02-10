@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-10T19:28:41.625737Z",
+      "format": null,
+      "last_modified": "2022-02-10T19:28:41.625737Z",
+      "mimetype": null,
+      "name": "riksprot",
+      "path": "westac/riksprot",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-10T19:28:41.625737Z",
+  "format": "json",
+  "last_modified": "2022-02-10T19:28:41.625737Z",
+  "mimetype": null,
+  "name": "westac",
+  "path": "westac",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
