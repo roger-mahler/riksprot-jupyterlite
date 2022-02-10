@@ -32,9 +32,14 @@ source:
 	@cp $(ROOT_FOLDER)/__paths__.py ./content/
 	@cp -r $(ROOT_FOLDER)/westac/riksprot ./content/westac
 
-release: clean source ready
+release: source clean ready commit
 
-.PHONY: ready build requirements.txt source release help
+commit:
+	@git add .
+	@git commit -m "✨✨✨ released!"
+	@git push
+
+.PHONY: ready build requirements.txt source release help commit
 
 help:
 	@poetry run jupyter lite --help-all | less
