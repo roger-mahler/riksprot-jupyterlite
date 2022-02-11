@@ -2,21 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-11T10:49:04.565153Z",
+      "created": "2022-02-11T11:52:31.256374Z",
       "format": null,
-      "last_modified": "2022-02-11T10:49:04.565153Z",
-      "mimetype": null,
-      "name": "westac",
-      "path": "westac",
-      "size": null,
-      "type": "directory",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-02-11T10:49:04.565153Z",
-      "format": null,
-      "last_modified": "2022-02-11T10:49:04.565153Z",
+      "last_modified": "2022-02-11T11:52:31.256374Z",
       "mimetype": null,
       "name": "utility",
       "path": "utility",
@@ -26,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T10:49:04.561153Z",
+      "created": "2022-02-11T11:52:31.256374Z",
       "format": null,
-      "last_modified": "2022-02-11T10:49:04.561153Z",
+      "last_modified": "2022-02-11T11:52:31.256374Z",
       "mimetype": null,
       "name": "notebooks",
       "path": "notebooks",
@@ -38,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T10:49:04.553153Z",
+      "created": "2022-02-11T11:52:31.248374Z",
       "format": null,
-      "last_modified": "2022-02-11T10:49:04.553153Z",
+      "last_modified": "2022-02-11T11:52:31.248374Z",
       "mimetype": null,
       "name": "data",
       "path": "data",
@@ -50,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T10:49:04.553153Z",
+      "created": "2022-02-11T11:52:31.244374Z",
       "format": null,
-      "last_modified": "2022-02-11T10:48:06.000480Z",
+      "last_modified": "2022-02-11T11:51:32.937367Z",
       "mimetype": "text/x-python",
       "name": "__init__.py",
       "path": "__init__.py",
@@ -62,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T10:49:04.553153Z",
+      "created": "2022-02-11T11:52:31.244374Z",
       "format": null,
-      "last_modified": "2022-02-11T10:49:03.229138Z",
+      "last_modified": "2022-02-11T11:52:29.868401Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
@@ -73,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-11T10:49:04.565153Z",
+  "created": "2022-02-11T11:52:31.256374Z",
   "format": "json",
-  "last_modified": "2022-02-11T10:49:04.565153Z",
+  "last_modified": "2022-02-11T11:52:31.256374Z",
   "mimetype": null,
   "name": "",
   "path": "",
