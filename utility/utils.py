@@ -66,7 +66,7 @@ async def read_indexdb_file(path):
     request = store.get(path, "key")
     request.onsuccess = request.onerror = queue.put_nowait
     await queue.get()
-    return request.result.to_py())["content"] if request.result else None
+    return request.result.to_py()["content"] if request.result else None
 
 async def pandas_read_csv(filename, **kwargs):
     """"""
