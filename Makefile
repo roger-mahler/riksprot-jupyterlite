@@ -18,7 +18,7 @@ clean:
 	@-find . -name .ipynb_checkpoints -type d -exec rm -rf \{\} \; >& /dev/null
 
 nuke:
-	@rm -rf ./content/notebooks ./content/westac
+	@rm -rf ./content/notebooks ./westac/riksprot
 
 .ONESHELL: source
 source: nuke
@@ -41,7 +41,7 @@ release: source clean ready commit nuke
 
 commit:
 	@git add .
-	@git commit -m "✨✨✨ released!"
+	@git commit -m "✨r✨e✨l✨e✨a✨s✨e✨"
 	@git push
 
 .PHONY: ready build requirements.txt source release help commit
