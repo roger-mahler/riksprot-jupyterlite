@@ -5,7 +5,7 @@ ROOT_FOLDER=~/source/welfare-state-analytics/welfare_state_analytics
 ready: requirements.txt build
 
 build: requirements.txt
-	@poetry run jupyter lite build
+	@poetry run jupyter lite build --output-dir=./package --force -y
 	@poetry build
 
 requirements.txt: poetry.lock
