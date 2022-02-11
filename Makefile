@@ -21,7 +21,7 @@ nuke:
 
 .ONESHELL: source
 source: nuke
-	@mkdir -p content/notebooks content/data content/westac content/utility
+	@mkdir -p content/notebooks content/data westac
 	@rsync -av --prune-empty-dirs \
 		--exclude "__paths__.py" \
 		--exclude "__pycache__" \
@@ -34,7 +34,7 @@ source: nuke
 		$(ROOT_FOLDER)/notebooks/riksdagens_protokoll/ \
 		./content/notebooks
 	@touch content/westac/__init__.py
-	@cp -r $(ROOT_FOLDER)/westac/riksprot ./content/westac
+	@cp -r $(ROOT_FOLDER)/westac/riksprot ./westac
 
 release: source clean ready commit nuke
 

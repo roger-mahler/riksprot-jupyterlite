@@ -5,9 +5,10 @@ version = "0.5.19"
 description = "Welfare State Analytics - Riksdagens Protokoll"
 authors = ["Roger Mähler <roger.mahler@hotmail.com>"]
 packages = [
-    { include = "utility" , from="content"},
-    { include = "westac" , from="content"}
+    { include = "utility" },
+    { include = "westac" },
 ]
+# include = ["./content"]
 classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
