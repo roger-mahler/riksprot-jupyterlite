@@ -47,6 +47,7 @@ jupyterlite = "^0.1.0-alpha.21"
 # theme-darcula
 
 [tool.poetry.dev-dependencies]
+black = "^22.1.0"
 
 
 [build-system]
