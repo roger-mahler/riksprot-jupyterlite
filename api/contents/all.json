@@ -1,0 +1,61 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-11T21:18:22.056643Z",
+      "format": null,
+      "last_modified": "2022-02-11T21:18:22.056643Z",
+      "mimetype": null,
+      "name": "notebooks",
+      "path": "notebooks",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-11T21:18:22.044643Z",
+      "format": null,
+      "last_modified": "2022-02-11T21:18:22.044643Z",
+      "mimetype": null,
+      "name": "data",
+      "path": "data",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-11T21:18:22.044643Z",
+      "format": null,
+      "last_modified": "2022-02-11T21:18:04.172172Z",
+      "mimetype": "text/x-python",
+      "name": "__init__.py",
+      "path": "__init__.py",
+      "size": 0,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-11T21:18:22.044643Z",
+      "format": null,
+      "last_modified": "2022-02-11T21:18:21.216626Z",
+      "mimetype": "text/markdown",
+      "name": "README.md",
+      "path": "README.md",
+      "size": 498,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-11T21:18:22.048643Z",
+  "format": "json",
+  "last_modified": "2022-02-11T21:18:22.048643Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
