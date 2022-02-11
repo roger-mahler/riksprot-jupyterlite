@@ -7,7 +7,7 @@
         "passes": 1,
         "random_seed": 42,
         "alpha": "auto",
-        "workers": 1,
+        "workers": 2,
         "max_iter": 100,
         "prefix": ""
     },

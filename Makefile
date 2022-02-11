@@ -41,7 +41,7 @@ release: source clean ready commit nuke
 
 commit:
 	@git add .
-	@git commit -m "✨r✨e✨l✨e✨a✨s✨e✨"
+	@git commit -m "✨✨✨✨✨✨✨✨"
 	@git push
 
 .PHONY: ready build requirements.txt source release help commit
