@@ -9,39 +9,8 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.1e8f19418ca61e387e42.js",
-        "name": "@bokeh/jupyter_bokeh",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
         "load": "static/remoteEntry.b4fdbac59195db951ba7.js",
         "name": "@jupyter-server/resource-usage"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
-        "name": "@jupyter-widgets/jupyterlab-manager"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.12ad22690794c9ade54e.js",
-        "name": "bqplot"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.c87dc7abadd3cbe35584.js",
-        "name": "ipydatagrid"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.6a2a1cabdfc245b9c056.js",
-        "name": "jupyter-cytoscape"
       },
       {
         "extension": "./extension",
