@@ -1,5 +1,3 @@
-# type: ignore
-
 import asyncio
 import io
 import os
@@ -69,8 +67,7 @@ async def read_indexdb_file(path):
     return request.result.to_py()["content"] if request.result else None
 
 async def pandas_read_csv(filename, **kwargs):
-    """"""
-    return pd.read_csv(io.StringIO((await read_indexdb_file(filename)), **kwargs)
+    return pd.read_csv(io.StringIO((await read_indexdb_file(filename))), **kwargs)
 
 async def download_model(base_url, folder):
     os.makedirs(folder, exist_ok=True)
@@ -86,30 +83,7 @@ async def download_model(base_url, folder):
 
 
 # Via: https://github.com/jupyterlite/jupyterlite/issues/119#issuecomment-854495013
-# URL = "https://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv"
-# df = await read_csv_url(URL, "\t")
-# df
 # url = "https://raw.githubusercontent.com/humlab/penelope/main/tests/test_data/SSI_document_index.csv"
-
 # url = "https://raw.githubusercontent.com/pyodide/pyodide/main/docs/_static/img/pyodide-logo-readme.png"
 # filename = 'apa.png'
 # await fetch_binary(url, filename)
-
-
-# async def get_store(path):
-#     queue = asyncio.Queue(1)
-#     open_request = js.self.indexedDB.open("JupyterLite Storage")
-#     open_request.onsuccess = open_request.onerror = queue.put_nowait
-#     await queue.get()
-#     if open_request.result is None:
-#         return None
-#     transaction = open_request.result.transaction("files", "readonly")
-#     store = transaction.objectStore("files")
-#     return store
-
-# async def read_file(filename):
-#     queue = asyncio.Queue(1)
-#     read_request = (await get_store()).get(filename, "key")
-#     read_request.onsuccess = read_request.onerror = queue.put_nowait
-#     await queue.get()
-#     return read_request.result.to_py() if read_request.result else None
