@@ -6,6 +6,7 @@ ready: requirements.txt build
 
 build: requirements.txt
 	@poetry run jupyter lite build
+	@poetry build
 
 requirements.txt: poetry.lock
 	@poetry export --without-hashes -f requirements.txt --output requirements.txt

@@ -4,7 +4,7 @@ name = "pyriksprot-lite"
 version = "0.5.19"
 description = "Welfare State Analytics - Riksdagens Protokoll"
 authors = ["Roger Mähler <roger.mahler@hotmail.com>"]
-packages = [{ include = "notebooks" }]
+packages = [{ include = "content" }]
 classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
@@ -44,6 +44,7 @@ jupyterlite = "^0.1.0-alpha.21"
 # jupyterlite-xeus-wren==0.1.2
 # jupyterlite-xeus-sqlite==0.1.2
 # plotly>=5,<6
+jupyterlab-system-monitor = "^0.8.0"
 # theme-darcula
 
 [tool.poetry.dev-dependencies]

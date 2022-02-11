@@ -97,22 +97,15 @@ async def download_model(base_url, folder):
 
 
 # async def get_store(path):
-
 #     queue = asyncio.Queue(1)
-
 #     open_request = js.self.indexedDB.open("JupyterLite Storage")
 #     open_request.onsuccess = open_request.onerror = queue.put_nowait
-
 #     await queue.get()
-
 #     if open_request.result is None:
 #         return None
-
 #     transaction = open_request.result.transaction("files", "readonly")
 #     store = transaction.objectStore("files")
-
 #     return store
-
 
 # async def read_file(filename):
 #     queue = asyncio.Queue(1)
@@ -120,4 +113,3 @@ async def download_model(base_url, folder):
 #     read_request.onsuccess = read_request.onerror = queue.put_nowait
 #     await queue.get()
 #     return read_request.result.to_py() if read_request.result else None
-
