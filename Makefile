@@ -33,8 +33,8 @@ source: nuke
 		--exclude "*" \
 		$(ROOT_FOLDER)/notebooks/riksdagens_protokoll/ \
 		./content/notebooks
-	@touch content/westac/__init__.py
 	@cp -r $(ROOT_FOLDER)/westac/riksprot ./westac
+	@touch ./westac/__init__.py
 
 release: source clean ready commit nuke
 
