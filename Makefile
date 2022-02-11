@@ -9,6 +9,7 @@ build: requirements.txt
 	@poetry build
 
 requirements.txt: poetry.lock
+	@poetry update
 	@poetry export --without-hashes -f requirements.txt --output requirements.txt
 
 clean:
