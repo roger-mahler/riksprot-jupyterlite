@@ -2,21 +2,33 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.717049Z",
+      "created": "2022-02-11T10:03:48.752200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
+      "mimetype": null,
+      "name": "testbed.ipynb",
+      "path": "utility/testbed.ipynb",
+      "size": 5767,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-11T10:03:48.752200Z",
+      "format": null,
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": "text/x-python",
       "name": "utils.py",
       "path": "utility/utils.py",
-      "size": 1369,
+      "size": 3632,
       "type": "file",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.717049Z",
+      "created": "2022-02-11T10:03:48.748200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": "text/x-python",
       "name": "__init__.py",
       "path": "utility/__init__.py",
@@ -25,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-11T07:48:58.717049Z",
+  "created": "2022-02-11T10:03:48.752200Z",
   "format": "json",
-  "last_modified": "2022-02-11T07:48:58.717049Z",
+  "last_modified": "2022-02-11T10:03:48.752200Z",
   "mimetype": null,
   "name": "utility",
   "path": "utility",

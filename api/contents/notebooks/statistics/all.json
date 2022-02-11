@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.709049Z",
+      "created": "2022-02-11T10:03:48.744200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": "text/x-python",
       "name": "speech_statistics.py",
       "path": "notebooks/statistics/speech_statistics.py",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.709049Z",
+      "created": "2022-02-11T10:03:48.744200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": "text/x-python",
       "name": "speech_statistics_scratchpad.py",
       "path": "notebooks/statistics/speech_statistics_scratchpad.py",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.709049Z",
+      "created": "2022-02-11T10:03:48.744200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": null,
       "name": "speech_statistics.ipynb",
       "path": "notebooks/statistics/speech_statistics.ipynb",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.709049Z",
+      "created": "2022-02-11T10:03:48.744200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": null,
       "name": "speech_statistics_scratchpad.ipynb",
       "path": "notebooks/statistics/speech_statistics_scratchpad.ipynb",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-11T07:48:58.709049Z",
+      "created": "2022-02-11T10:03:48.744200Z",
       "format": null,
-      "last_modified": "2022-02-11T07:47:58.764119Z",
+      "last_modified": "2022-02-11T10:02:42.488969Z",
       "mimetype": "text/x-python",
       "name": "__init__.py",
       "path": "notebooks/statistics/__init__.py",
@@ -61,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-11T07:48:58.709049Z",
+  "created": "2022-02-11T10:03:48.744200Z",
   "format": "json",
-  "last_modified": "2022-02-11T07:48:58.709049Z",
+  "last_modified": "2022-02-11T10:03:48.744200Z",
   "mimetype": null,
   "name": "statistics",
   "path": "notebooks/statistics",

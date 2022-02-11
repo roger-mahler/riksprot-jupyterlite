@@ -16,6 +16,12 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.b4fdbac59195db951ba7.js",
+        "name": "@jupyter-server/resource-usage"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
@@ -36,6 +42,19 @@
         "liteExtension": false,
         "load": "static/remoteEntry.6a2a1cabdfc245b9c056.js",
         "name": "jupyter-cytoscape"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.961e4f7107573a8ce772.js",
+        "name": "jupyterlab-system-monitor"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.d1b2608380b59cf07890.js",
+        "name": "jupyterlab-topbar-extension",
+        "style": "./style"
       }
     ],
     "fullLabextensionsUrl": "./lab/extensions",
