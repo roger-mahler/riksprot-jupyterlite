@@ -15,8 +15,12 @@ clean:
 	@-find . -name __pycache__ -type d -exec rm -rf \{\} \; >& /dev/null
 	@-find . -name .ipynb_checkpoints -type d -exec rm -rf \{\} \; >& /dev/null
 
-source:
-	@rm -rf ./content/*
+nuke:
+	@rm -rf ./content/notebooks ./content/westac
+
+.ONESHELL: source
+source: nuke
+	@mkdir -p content/notebooks content/data content/westac content/utility
 	@rsync -av --prune-empty-dirs \
 		--exclude "__paths__.py" \
 		--exclude "__pycache__" \
@@ -27,12 +31,11 @@ source:
 		--include "*/" \
 		--exclude "*" \
 		$(ROOT_FOLDER)/notebooks/riksdagens_protokoll/ \
-		./content
-	@mkdir -p content/data content/westac
-	@cp $(ROOT_FOLDER)/__paths__.py ./content/
+		./content/notebooks
+	@touch content/westac/__init__.py
 	@cp -r $(ROOT_FOLDER)/westac/riksprot ./content/westac
 
-release: source clean ready commit
+release: source clean ready commit nuke
 
 commit:
 	@git add .
