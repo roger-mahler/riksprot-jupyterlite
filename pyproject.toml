@@ -8,7 +8,7 @@ packages = [
     { include = "utility" },
     { include = "westac" },
 ]
-# include = ["./content"]
+include = ["./content"]
 classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
