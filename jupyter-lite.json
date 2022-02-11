@@ -5,27 +5,7 @@
     "appVersion": "0.1.0-alpha.21",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
-    "federated_extensions": [
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.b4fdbac59195db951ba7.js",
-        "name": "@jupyter-server/resource-usage"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.961e4f7107573a8ce772.js",
-        "name": "jupyterlab-system-monitor"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.d1b2608380b59cf07890.js",
-        "name": "jupyterlab-topbar-extension",
-        "style": "./style"
-      }
-    ],
+    "federated_extensions": [],
     "fullLabextensionsUrl": "./lab/extensions",
     "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
     "fullStaticUrl": "./lab/build",
