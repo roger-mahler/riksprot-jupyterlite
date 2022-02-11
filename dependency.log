@@ -1,0 +1,999 @@
+ValueError: Couldn't find a pure Python 3 wheel for: 'tornado>=4', 'pyzmq>=13', 'tornado>=4.1', 'pyzmq>=17', 'tornado>=6.1.0', 'argon2-cffi-bindings', 'psutil~=5.6', 'tornado>=6.1.0', 'pyzmq>=17', 'tornado>=6.1'
+
+black 22.1.0 The uncompromising code formatter.
+|-- click >=8.0.0
+|   `-- colorama *
+|-- mypy-extensions >=0.4.3
+|-- pathspec >=0.9.0
+|-- platformdirs >=2
+|-- tomli >=1.1.0
+`-- typing-extensions >=3.10.0.0
+humlab-penelope 0.6.8 Utilities that simplify enelpeing in Jupyter Lab
+|-- bokeh *
+|   |-- jinja2 >=2.9
+|   |   `-- markupsafe >=2.0
+|   |-- numpy >=1.11.3
+|   |-- packaging >=16.8
+|   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|   |-- pillow >=7.1.0
+|   |-- pyyaml >=3.10
+|   |-- tornado >=5.1
+|   `-- typing-extensions >=3.10.0
+|-- ftfy *
+|   `-- wcwidth >=0.2.5
+|-- ipycytoscape *
+|   |-- ipywidgets >=7.6.0
+|   |   |-- ipykernel >=4.5.1
+|   |   |   |-- appnope *
+|   |   |   |-- debugpy >=1.0.0,<2.0
+|   |   |   |-- ipython >=7.23.1
+|   |   |   |   |-- appnope * (circular dependency aborted here)
+|   |   |   |   |-- backcall *
+|   |   |   |   |-- black *
+|   |   |   |   |   |-- click >=8.0.0
+|   |   |   |   |   |   `-- colorama *
+|   |   |   |   |   |-- mypy-extensions >=0.4.3
+|   |   |   |   |   |-- pathspec >=0.9.0
+|   |   |   |   |   |-- platformdirs >=2
+|   |   |   |   |   |-- tomli >=1.1.0
+|   |   |   |   |   `-- typing-extensions >=3.10.0.0
+|   |   |   |   |-- colorama * (circular dependency aborted here)
+|   |   |   |   |-- decorator *
+|   |   |   |   |-- jedi >=0.16
+|   |   |   |   |   `-- parso >=0.8.0,<0.9.0
+|   |   |   |   |-- matplotlib-inline *
+|   |   |   |   |   `-- traitlets *
+|   |   |   |   |-- pexpect >4.3
+|   |   |   |   |   `-- ptyprocess >=0.5
+|   |   |   |   |-- pickleshare *
+|   |   |   |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+|   |   |   |   |   `-- wcwidth *
+|   |   |   |   |-- pygments *
+|   |   |   |   |-- stack-data *
+|   |   |   |   |   |-- asttokens *
+|   |   |   |   |   |   `-- six *
+|   |   |   |   |   |-- executing *
+|   |   |   |   |   `-- pure-eval *
+|   |   |   |   `-- traitlets >=5 (circular dependency aborted here)
+|   |   |   |-- jupyter-client <8.0
+|   |   |   |   |-- entrypoints *
+|   |   |   |   |-- jupyter-core >=4.6.0
+|   |   |   |   |   |-- pywin32 >=1.0
+|   |   |   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |   |   |-- nest-asyncio >=1.5
+|   |   |   |   |-- python-dateutil >=2.1
+|   |   |   |   |   `-- six >=1.5 (circular dependency aborted here)
+|   |   |   |   |-- pyzmq >=13
+|   |   |   |   |   |-- cffi *
+|   |   |   |   |   |   `-- pycparser *
+|   |   |   |   |   `-- py *
+|   |   |   |   |-- tornado >=4.1
+|   |   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+|   |   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |   |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+|   |   |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+|   |   |-- ipython >=4.0.0 (circular dependency aborted here)
+|   |   |-- ipython-genutils >=0.2.0,<0.3.0
+|   |   |-- jupyterlab-widgets >=1.0.0
+|   |   |-- nbformat >=4.2.0
+|   |   |   |-- ipython-genutils * (circular dependency aborted here)
+|   |   |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|   |   |   |   |-- attrs >=17.4.0
+|   |   |   |   |-- importlib-resources >=1.4.0
+|   |   |   |   |   `-- zipp >=3.1.0
+|   |   |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|   |   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |   `-- traitlets >=4.1 (circular dependency aborted here)
+|   |   |-- traitlets >=4.3.1 (circular dependency aborted here)
+|   |   `-- widgetsnbextension >=3.5.0,<3.6.0
+|   |       `-- notebook >=4.4.1
+|   |           |-- argon2-cffi *
+|   |           |   `-- argon2-cffi-bindings *
+|   |           |       `-- cffi >=1.0.1 (circular dependency aborted here)
+|   |           |-- ipykernel * (circular dependency aborted here)
+|   |           |-- ipython-genutils * (circular dependency aborted here)
+|   |           |-- jinja2 *
+|   |           |   `-- markupsafe >=2.0
+|   |           |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+|   |           |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+|   |           |-- nbconvert *
+|   |           |   |-- bleach *
+|   |           |   |   |-- packaging *
+|   |           |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|   |           |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|   |           |   |   `-- webencodings *
+|   |           |   |-- defusedxml *
+|   |           |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|   |           |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|   |           |   |-- jupyter-core * (circular dependency aborted here)
+|   |           |   |-- jupyterlab-pygments *
+|   |           |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+|   |           |   |-- mistune >=0.8.1,<2
+|   |           |   |-- nbclient >=0.5.0,<0.6.0
+|   |           |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|   |           |   |   |-- nbformat >=5.0 (circular dependency aborted here)
+|   |           |   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |           |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|   |           |   |-- nbformat >=4.4 (circular dependency aborted here)
+|   |           |   |-- pandocfilters >=1.4.1
+|   |           |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|   |           |   |-- testpath *
+|   |           |   `-- traitlets >=5.0 (circular dependency aborted here)
+|   |           |-- nbformat * (circular dependency aborted here)
+|   |           |-- nest-asyncio >=1.5 (circular dependency aborted here)
+|   |           |-- prometheus-client *
+|   |           |-- pyzmq >=17 (circular dependency aborted here)
+|   |           |-- send2trash >=1.8.0
+|   |           |-- terminado >=0.8.3
+|   |           |   |-- ptyprocess * (circular dependency aborted here)
+|   |           |   |-- pywinpty >=1.1.0
+|   |           |   `-- tornado >=4 (circular dependency aborted here)
+|   |           |-- tornado >=6.1 (circular dependency aborted here)
+|   |           `-- traitlets >=4.2.1 (circular dependency aborted here)
+|   `-- spectate >=1.0.0
+|-- ipydatagrid >=1.1.8,<2.0.0
+|   |-- bqplot >=0.11.6
+|   |   |-- ipywidgets >=7.5.0
+|   |   |   |-- ipykernel >=4.5.1
+|   |   |   |   |-- appnope *
+|   |   |   |   |-- debugpy >=1.0.0,<2.0
+|   |   |   |   |-- ipython >=7.23.1
+|   |   |   |   |   |-- appnope * (circular dependency aborted here)
+|   |   |   |   |   |-- backcall *
+|   |   |   |   |   |-- black *
+|   |   |   |   |   |   |-- click >=8.0.0
+|   |   |   |   |   |   |   `-- colorama *
+|   |   |   |   |   |   |-- mypy-extensions >=0.4.3
+|   |   |   |   |   |   |-- pathspec >=0.9.0
+|   |   |   |   |   |   |-- platformdirs >=2
+|   |   |   |   |   |   |-- tomli >=1.1.0
+|   |   |   |   |   |   `-- typing-extensions >=3.10.0.0
+|   |   |   |   |   |-- colorama * (circular dependency aborted here)
+|   |   |   |   |   |-- decorator *
+|   |   |   |   |   |-- jedi >=0.16
+|   |   |   |   |   |   `-- parso >=0.8.0,<0.9.0
+|   |   |   |   |   |-- matplotlib-inline *
+|   |   |   |   |   |   `-- traitlets *
+|   |   |   |   |   |-- pexpect >4.3
+|   |   |   |   |   |   `-- ptyprocess >=0.5
+|   |   |   |   |   |-- pickleshare *
+|   |   |   |   |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+|   |   |   |   |   |   `-- wcwidth *
+|   |   |   |   |   |-- pygments *
+|   |   |   |   |   |-- stack-data *
+|   |   |   |   |   |   |-- asttokens *
+|   |   |   |   |   |   |   `-- six *
+|   |   |   |   |   |   |-- executing *
+|   |   |   |   |   |   `-- pure-eval *
+|   |   |   |   |   `-- traitlets >=5 (circular dependency aborted here)
+|   |   |   |   |-- jupyter-client <8.0
+|   |   |   |   |   |-- entrypoints *
+|   |   |   |   |   |-- jupyter-core >=4.6.0
+|   |   |   |   |   |   |-- pywin32 >=1.0
+|   |   |   |   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |   |   |   |-- nest-asyncio >=1.5
+|   |   |   |   |   |-- python-dateutil >=2.1
+|   |   |   |   |   |   `-- six >=1.5 (circular dependency aborted here)
+|   |   |   |   |   |-- pyzmq >=13
+|   |   |   |   |   |   |-- cffi *
+|   |   |   |   |   |   |   `-- pycparser *
+|   |   |   |   |   |   `-- py *
+|   |   |   |   |   |-- tornado >=4.1
+|   |   |   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |   |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+|   |   |   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |   |   |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+|   |   |   |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+|   |   |   |-- ipython >=4.0.0 (circular dependency aborted here)
+|   |   |   |-- ipython-genutils >=0.2.0,<0.3.0
+|   |   |   |-- jupyterlab-widgets >=1.0.0
+|   |   |   |-- nbformat >=4.2.0
+|   |   |   |   |-- ipython-genutils * (circular dependency aborted here)
+|   |   |   |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|   |   |   |   |   |-- attrs >=17.4.0
+|   |   |   |   |   |-- importlib-resources >=1.4.0
+|   |   |   |   |   |   `-- zipp >=3.1.0
+|   |   |   |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|   |   |   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |   |   `-- traitlets >=4.1 (circular dependency aborted here)
+|   |   |   |-- traitlets >=4.3.1 (circular dependency aborted here)
+|   |   |   `-- widgetsnbextension >=3.5.0,<3.6.0
+|   |   |       `-- notebook >=4.4.1
+|   |   |           |-- argon2-cffi *
+|   |   |           |   `-- argon2-cffi-bindings *
+|   |   |           |       `-- cffi >=1.0.1 (circular dependency aborted here)
+|   |   |           |-- ipykernel * (circular dependency aborted here)
+|   |   |           |-- ipython-genutils * (circular dependency aborted here)
+|   |   |           |-- jinja2 *
+|   |   |           |   `-- markupsafe >=2.0
+|   |   |           |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+|   |   |           |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+|   |   |           |-- nbconvert *
+|   |   |           |   |-- bleach *
+|   |   |           |   |   |-- packaging *
+|   |   |           |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|   |   |           |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|   |   |           |   |   `-- webencodings *
+|   |   |           |   |-- defusedxml *
+|   |   |           |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|   |   |           |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|   |   |           |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |           |   |-- jupyterlab-pygments *
+|   |   |           |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+|   |   |           |   |-- mistune >=0.8.1,<2
+|   |   |           |   |-- nbclient >=0.5.0,<0.6.0
+|   |   |           |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|   |   |           |   |   |-- nbformat >=5.0 (circular dependency aborted here)
+|   |   |           |   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |   |           |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|   |   |           |   |-- nbformat >=4.4 (circular dependency aborted here)
+|   |   |           |   |-- pandocfilters >=1.4.1
+|   |   |           |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|   |   |           |   |-- testpath *
+|   |   |           |   `-- traitlets >=5.0 (circular dependency aborted here)
+|   |   |           |-- nbformat * (circular dependency aborted here)
+|   |   |           |-- nest-asyncio >=1.5 (circular dependency aborted here)
+|   |   |           |-- prometheus-client *
+|   |   |           |-- pyzmq >=17 (circular dependency aborted here)
+|   |   |           |-- send2trash >=1.8.0
+|   |   |           |-- terminado >=0.8.3
+|   |   |           |   |-- ptyprocess * (circular dependency aborted here)
+|   |   |           |   |-- pywinpty >=1.1.0
+|   |   |           |   `-- tornado >=4 (circular dependency aborted here)
+|   |   |           |-- tornado >=6.1 (circular dependency aborted here)
+|   |   |           `-- traitlets >=4.2.1 (circular dependency aborted here)
+|   |   |-- numpy >=1.10.4,<2.0.0
+|   |   |-- pandas >=1.0.0,<2.0.0
+|   |   |   |-- numpy >=1.18.5 (circular dependency aborted here)
+|   |   |   |-- numpy >=1.19.2 (circular dependency aborted here)
+|   |   |   |-- numpy >=1.20.0 (circular dependency aborted here)
+|   |   |   |-- python-dateutil >=2.8.1 (circular dependency aborted here)
+|   |   |   `-- pytz >=2020.1
+|   |   |-- traitlets >=4.3.0 (circular dependency aborted here)
+|   |   `-- traittypes >=0.0.6
+|   |       `-- traitlets >=4.2.2 (circular dependency aborted here)
+|   |-- ipywidgets >=7.6.0,<8 (circular dependency aborted here)
+|   |-- pandas >=0.25.0 (circular dependency aborted here)
+|   `-- py2vega >=0.5.0
+|       `-- gast >=0.4.0,<0.5
+|-- ipyfilechooser *
+|   `-- ipywidgets *
+|       |-- ipykernel >=4.5.1
+|       |   |-- appnope *
+|       |   |-- debugpy >=1.0.0,<2.0
+|       |   |-- ipython >=7.23.1
+|       |   |   |-- appnope * (circular dependency aborted here)
+|       |   |   |-- backcall *
+|       |   |   |-- black *
+|       |   |   |   |-- click >=8.0.0
+|       |   |   |   |   `-- colorama *
+|       |   |   |   |-- mypy-extensions >=0.4.3
+|       |   |   |   |-- pathspec >=0.9.0
+|       |   |   |   |-- platformdirs >=2
+|       |   |   |   |-- tomli >=1.1.0
+|       |   |   |   `-- typing-extensions >=3.10.0.0
+|       |   |   |-- colorama * (circular dependency aborted here)
+|       |   |   |-- decorator *
+|       |   |   |-- jedi >=0.16
+|       |   |   |   `-- parso >=0.8.0,<0.9.0
+|       |   |   |-- matplotlib-inline *
+|       |   |   |   `-- traitlets *
+|       |   |   |-- pexpect >4.3
+|       |   |   |   `-- ptyprocess >=0.5
+|       |   |   |-- pickleshare *
+|       |   |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+|       |   |   |   `-- wcwidth *
+|       |   |   |-- pygments *
+|       |   |   |-- stack-data *
+|       |   |   |   |-- asttokens *
+|       |   |   |   |   `-- six *
+|       |   |   |   |-- executing *
+|       |   |   |   `-- pure-eval *
+|       |   |   `-- traitlets >=5 (circular dependency aborted here)
+|       |   |-- jupyter-client <8.0
+|       |   |   |-- entrypoints *
+|       |   |   |-- jupyter-core >=4.6.0
+|       |   |   |   |-- pywin32 >=1.0
+|       |   |   |   `-- traitlets * (circular dependency aborted here)
+|       |   |   |-- nest-asyncio >=1.5
+|       |   |   |-- python-dateutil >=2.1
+|       |   |   |   `-- six >=1.5 (circular dependency aborted here)
+|       |   |   |-- pyzmq >=13
+|       |   |   |   |-- cffi *
+|       |   |   |   |   `-- pycparser *
+|       |   |   |   `-- py *
+|       |   |   |-- tornado >=4.1
+|       |   |   `-- traitlets * (circular dependency aborted here)
+|       |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+|       |   |-- nest-asyncio * (circular dependency aborted here)
+|       |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+|       |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+|       |-- ipython >=4.0.0 (circular dependency aborted here)
+|       |-- ipython-genutils >=0.2.0,<0.3.0
+|       |-- jupyterlab-widgets >=1.0.0
+|       |-- nbformat >=4.2.0
+|       |   |-- ipython-genutils * (circular dependency aborted here)
+|       |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|       |   |   |-- attrs >=17.4.0
+|       |   |   |-- importlib-resources >=1.4.0
+|       |   |   |   `-- zipp >=3.1.0
+|       |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|       |   |-- jupyter-core * (circular dependency aborted here)
+|       |   `-- traitlets >=4.1 (circular dependency aborted here)
+|       |-- traitlets >=4.3.1 (circular dependency aborted here)
+|       `-- widgetsnbextension >=3.5.0,<3.6.0
+|           `-- notebook >=4.4.1
+|               |-- argon2-cffi *
+|               |   `-- argon2-cffi-bindings *
+|               |       `-- cffi >=1.0.1 (circular dependency aborted here)
+|               |-- ipykernel * (circular dependency aborted here)
+|               |-- ipython-genutils * (circular dependency aborted here)
+|               |-- jinja2 *
+|               |   `-- markupsafe >=2.0
+|               |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+|               |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+|               |-- nbconvert *
+|               |   |-- bleach *
+|               |   |   |-- packaging *
+|               |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|               |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|               |   |   `-- webencodings *
+|               |   |-- defusedxml *
+|               |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|               |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|               |   |-- jupyter-core * (circular dependency aborted here)
+|               |   |-- jupyterlab-pygments *
+|               |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+|               |   |-- mistune >=0.8.1,<2
+|               |   |-- nbclient >=0.5.0,<0.6.0
+|               |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|               |   |   |-- nbformat >=5.0 (circular dependency aborted here)
+|               |   |   |-- nest-asyncio * (circular dependency aborted here)
+|               |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|               |   |-- nbformat >=4.4 (circular dependency aborted here)
+|               |   |-- pandocfilters >=1.4.1
+|               |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|               |   |-- testpath *
+|               |   `-- traitlets >=5.0 (circular dependency aborted here)
+|               |-- nbformat * (circular dependency aborted here)
+|               |-- nest-asyncio >=1.5 (circular dependency aborted here)
+|               |-- prometheus-client *
+|               |-- pyzmq >=17 (circular dependency aborted here)
+|               |-- send2trash >=1.8.0
+|               |-- terminado >=0.8.3
+|               |   |-- ptyprocess * (circular dependency aborted here)
+|               |   |-- pywinpty >=1.1.0
+|               |   `-- tornado >=4 (circular dependency aborted here)
+|               |-- tornado >=6.1 (circular dependency aborted here)
+|               `-- traitlets >=4.2.1 (circular dependency aborted here)
+|-- ipywidgets *
+|   |-- ipykernel >=4.5.1
+|   |   |-- appnope *
+|   |   |-- debugpy >=1.0.0,<2.0
+|   |   |-- ipython >=7.23.1
+|   |   |   |-- appnope * (circular dependency aborted here)
+|   |   |   |-- backcall *
+|   |   |   |-- black *
+|   |   |   |   |-- click >=8.0.0
+|   |   |   |   |   `-- colorama *
+|   |   |   |   |-- mypy-extensions >=0.4.3
+|   |   |   |   |-- pathspec >=0.9.0
+|   |   |   |   |-- platformdirs >=2
+|   |   |   |   |-- tomli >=1.1.0
+|   |   |   |   `-- typing-extensions >=3.10.0.0
+|   |   |   |-- colorama * (circular dependency aborted here)
+|   |   |   |-- decorator *
+|   |   |   |-- jedi >=0.16
+|   |   |   |   `-- parso >=0.8.0,<0.9.0
+|   |   |   |-- matplotlib-inline *
+|   |   |   |   `-- traitlets *
+|   |   |   |-- pexpect >4.3
+|   |   |   |   `-- ptyprocess >=0.5
+|   |   |   |-- pickleshare *
+|   |   |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+|   |   |   |   `-- wcwidth *
+|   |   |   |-- pygments *
+|   |   |   |-- stack-data *
+|   |   |   |   |-- asttokens *
+|   |   |   |   |   `-- six *
+|   |   |   |   |-- executing *
+|   |   |   |   `-- pure-eval *
+|   |   |   `-- traitlets >=5 (circular dependency aborted here)
+|   |   |-- jupyter-client <8.0
+|   |   |   |-- entrypoints *
+|   |   |   |-- jupyter-core >=4.6.0
+|   |   |   |   |-- pywin32 >=1.0
+|   |   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |   |-- nest-asyncio >=1.5
+|   |   |   |-- python-dateutil >=2.1
+|   |   |   |   `-- six >=1.5 (circular dependency aborted here)
+|   |   |   |-- pyzmq >=13
+|   |   |   |   |-- cffi *
+|   |   |   |   |   `-- pycparser *
+|   |   |   |   `-- py *
+|   |   |   |-- tornado >=4.1
+|   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+|   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+|   |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+|   |-- ipython >=4.0.0 (circular dependency aborted here)
+|   |-- ipython-genutils >=0.2.0,<0.3.0
+|   |-- jupyterlab-widgets >=1.0.0
+|   |-- nbformat >=4.2.0
+|   |   |-- ipython-genutils * (circular dependency aborted here)
+|   |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|   |   |   |-- attrs >=17.4.0
+|   |   |   |-- importlib-resources >=1.4.0
+|   |   |   |   `-- zipp >=3.1.0
+|   |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   `-- traitlets >=4.1 (circular dependency aborted here)
+|   |-- traitlets >=4.3.1 (circular dependency aborted here)
+|   `-- widgetsnbextension >=3.5.0,<3.6.0
+|       `-- notebook >=4.4.1
+|           |-- argon2-cffi *
+|           |   `-- argon2-cffi-bindings *
+|           |       `-- cffi >=1.0.1 (circular dependency aborted here)
+|           |-- ipykernel * (circular dependency aborted here)
+|           |-- ipython-genutils * (circular dependency aborted here)
+|           |-- jinja2 *
+|           |   `-- markupsafe >=2.0
+|           |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+|           |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+|           |-- nbconvert *
+|           |   |-- bleach *
+|           |   |   |-- packaging *
+|           |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|           |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|           |   |   `-- webencodings *
+|           |   |-- defusedxml *
+|           |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|           |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|           |   |-- jupyter-core * (circular dependency aborted here)
+|           |   |-- jupyterlab-pygments *
+|           |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+|           |   |-- mistune >=0.8.1,<2
+|           |   |-- nbclient >=0.5.0,<0.6.0
+|           |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|           |   |   |-- nbformat >=5.0 (circular dependency aborted here)
+|           |   |   |-- nest-asyncio * (circular dependency aborted here)
+|           |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|           |   |-- nbformat >=4.4 (circular dependency aborted here)
+|           |   |-- pandocfilters >=1.4.1
+|           |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|           |   |-- testpath *
+|           |   `-- traitlets >=5.0 (circular dependency aborted here)
+|           |-- nbformat * (circular dependency aborted here)
+|           |-- nest-asyncio >=1.5 (circular dependency aborted here)
+|           |-- prometheus-client *
+|           |-- pyzmq >=17 (circular dependency aborted here)
+|           |-- send2trash >=1.8.0
+|           |-- terminado >=0.8.3
+|           |   |-- ptyprocess * (circular dependency aborted here)
+|           |   |-- pywinpty >=1.1.0
+|           |   `-- tornado >=4 (circular dependency aborted here)
+|           |-- tornado >=6.1 (circular dependency aborted here)
+|           `-- traitlets >=4.2.1 (circular dependency aborted here)
+|-- jupyter-bokeh *
+|   |-- bokeh >=2.4.0
+|   |   |-- jinja2 >=2.9
+|   |   |   `-- markupsafe >=2.0
+|   |   |-- numpy >=1.11.3
+|   |   |-- packaging >=16.8
+|   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|   |   |-- pillow >=7.1.0
+|   |   |-- pyyaml >=3.10
+|   |   |-- tornado >=5.1
+|   |   `-- typing-extensions >=3.10.0
+|   `-- ipywidgets >=7.6.0
+|       |-- ipykernel >=4.5.1
+|       |   |-- appnope *
+|       |   |-- debugpy >=1.0.0,<2.0
+|       |   |-- ipython >=7.23.1
+|       |   |   |-- appnope * (circular dependency aborted here)
+|       |   |   |-- backcall *
+|       |   |   |-- black *
+|       |   |   |   |-- click >=8.0.0
+|       |   |   |   |   `-- colorama *
+|       |   |   |   |-- mypy-extensions >=0.4.3
+|       |   |   |   |-- pathspec >=0.9.0
+|       |   |   |   |-- platformdirs >=2
+|       |   |   |   |-- tomli >=1.1.0
+|       |   |   |   `-- typing-extensions >=3.10.0.0 (circular dependency aborted here)
+|       |   |   |-- colorama * (circular dependency aborted here)
+|       |   |   |-- decorator *
+|       |   |   |-- jedi >=0.16
+|       |   |   |   `-- parso >=0.8.0,<0.9.0
+|       |   |   |-- matplotlib-inline *
+|       |   |   |   `-- traitlets *
+|       |   |   |-- pexpect >4.3
+|       |   |   |   `-- ptyprocess >=0.5
+|       |   |   |-- pickleshare *
+|       |   |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+|       |   |   |   `-- wcwidth *
+|       |   |   |-- pygments *
+|       |   |   |-- stack-data *
+|       |   |   |   |-- asttokens *
+|       |   |   |   |   `-- six *
+|       |   |   |   |-- executing *
+|       |   |   |   `-- pure-eval *
+|       |   |   `-- traitlets >=5 (circular dependency aborted here)
+|       |   |-- jupyter-client <8.0
+|       |   |   |-- entrypoints *
+|       |   |   |-- jupyter-core >=4.6.0
+|       |   |   |   |-- pywin32 >=1.0
+|       |   |   |   `-- traitlets * (circular dependency aborted here)
+|       |   |   |-- nest-asyncio >=1.5
+|       |   |   |-- python-dateutil >=2.1
+|       |   |   |   `-- six >=1.5 (circular dependency aborted here)
+|       |   |   |-- pyzmq >=13
+|       |   |   |   |-- cffi *
+|       |   |   |   |   `-- pycparser *
+|       |   |   |   `-- py *
+|       |   |   |-- tornado >=4.1 (circular dependency aborted here)
+|       |   |   `-- traitlets * (circular dependency aborted here)
+|       |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+|       |   |-- nest-asyncio * (circular dependency aborted here)
+|       |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+|       |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+|       |-- ipython >=4.0.0 (circular dependency aborted here)
+|       |-- ipython-genutils >=0.2.0,<0.3.0
+|       |-- jupyterlab-widgets >=1.0.0
+|       |-- nbformat >=4.2.0
+|       |   |-- ipython-genutils * (circular dependency aborted here)
+|       |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|       |   |   |-- attrs >=17.4.0
+|       |   |   |-- importlib-resources >=1.4.0
+|       |   |   |   `-- zipp >=3.1.0
+|       |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|       |   |-- jupyter-core * (circular dependency aborted here)
+|       |   `-- traitlets >=4.1 (circular dependency aborted here)
+|       |-- traitlets >=4.3.1 (circular dependency aborted here)
+|       `-- widgetsnbextension >=3.5.0,<3.6.0
+|           `-- notebook >=4.4.1
+|               |-- argon2-cffi *
+|               |   `-- argon2-cffi-bindings *
+|               |       `-- cffi >=1.0.1 (circular dependency aborted here)
+|               |-- ipykernel * (circular dependency aborted here)
+|               |-- ipython-genutils * (circular dependency aborted here)
+|               |-- jinja2 * (circular dependency aborted here)
+|               |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+|               |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+|               |-- nbconvert *
+|               |   |-- bleach *
+|               |   |   |-- packaging * (circular dependency aborted here)
+|               |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|               |   |   `-- webencodings *
+|               |   |-- defusedxml *
+|               |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|               |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|               |   |-- jupyter-core * (circular dependency aborted here)
+|               |   |-- jupyterlab-pygments *
+|               |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+|               |   |-- mistune >=0.8.1,<2
+|               |   |-- nbclient >=0.5.0,<0.6.0
+|               |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|               |   |   |-- nbformat >=5.0 (circular dependency aborted here)
+|               |   |   |-- nest-asyncio * (circular dependency aborted here)
+|               |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|               |   |-- nbformat >=4.4 (circular dependency aborted here)
+|               |   |-- pandocfilters >=1.4.1
+|               |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|               |   |-- testpath *
+|               |   `-- traitlets >=5.0 (circular dependency aborted here)
+|               |-- nbformat * (circular dependency aborted here)
+|               |-- nest-asyncio >=1.5 (circular dependency aborted here)
+|               |-- prometheus-client *
+|               |-- pyzmq >=17 (circular dependency aborted here)
+|               |-- send2trash >=1.8.0
+|               |-- terminado >=0.8.3
+|               |   |-- ptyprocess * (circular dependency aborted here)
+|               |   |-- pywinpty >=1.1.0
+|               |   `-- tornado >=4 (circular dependency aborted here)
+|               |-- tornado >=6.1 (circular dependency aborted here)
+|               `-- traitlets >=4.2.1 (circular dependency aborted here)
+|-- loguru *
+|   |-- colorama >=0.3.4
+|   `-- win32-setctime >=1.0.0
+|-- lxml *
+|-- memoization >=0.3.1,<0.4.0
+|-- more-itertools >=8.5.0,<9.0.0
+|-- msgpack >=1.0.2,<2.0.0
+|-- nltk >=3.5,<4.0
+|   |-- click *
+|   |   `-- colorama *
+|   |-- joblib *
+|   |-- regex >=2021.8.3
+|   `-- tqdm *
+|       `-- colorama * (circular dependency aborted here)
+|-- numpy *
+|-- openpyxl >=3.0.5,<4.0.0
+|   `-- et-xmlfile *
+|-- pandas *
+|   |-- numpy >=1.18.5
+|   |-- numpy >=1.19.2 (circular dependency aborted here)
+|   |-- numpy >=1.20.0 (circular dependency aborted here)
+|   |-- python-dateutil >=2.8.1
+|   |   `-- six >=1.5
+|   `-- pytz >=2020.1
+|-- requests >=2.24.0,<3.0.0
+|   |-- certifi >=2017.4.17
+|   |-- charset-normalizer >=2.0.0,<2.1.0
+|   |-- idna >=2.5,<4
+|   `-- urllib3 >=1.21.1,<1.27
+|-- scipy *
+|   `-- numpy >=1.17.3,<1.25.0
+|-- toml >=0.10.2,<0.11.0
+`-- tqdm >=4.62.3,<5.0.0
+    `-- colorama *
+jupyterlab-system-monitor 0.8.0 JupyterLab extension to display system information
+|-- jupyter-resource-usage >=0.5,<1.0
+|   |-- jupyter-server >=1.0,<2.0
+|   |   |-- anyio >=3.1.0,<4
+|   |   |   |-- idna >=2.8
+|   |   |   `-- sniffio >=1.1
+|   |   |-- argon2-cffi *
+|   |   |   `-- argon2-cffi-bindings *
+|   |   |       `-- cffi >=1.0.1
+|   |   |           `-- pycparser *
+|   |   |-- ipython-genutils *
+|   |   |-- jinja2 *
+|   |   |   `-- markupsafe >=2.0
+|   |   |-- jupyter-client >=6.1.1
+|   |   |   |-- entrypoints *
+|   |   |   |-- jupyter-core >=4.6.0
+|   |   |   |   |-- pywin32 >=1.0
+|   |   |   |   `-- traitlets *
+|   |   |   |-- nest-asyncio >=1.5
+|   |   |   |-- python-dateutil >=2.1
+|   |   |   |   `-- six >=1.5
+|   |   |   |-- pyzmq >=13
+|   |   |   |   |-- cffi * (circular dependency aborted here)
+|   |   |   |   `-- py *
+|   |   |   |-- tornado >=4.1
+|   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |-- jupyter-core >=4.6.0 (circular dependency aborted here)
+|   |   |-- nbconvert *
+|   |   |   |-- bleach *
+|   |   |   |   |-- packaging *
+|   |   |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|   |   |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|   |   |   |   `-- webencodings *
+|   |   |   |-- defusedxml *
+|   |   |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|   |   |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|   |   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |   |-- jupyterlab-pygments *
+|   |   |   |   `-- pygments >=2.4.1,<3
+|   |   |   |-- mistune >=0.8.1,<2
+|   |   |   |-- nbclient >=0.5.0,<0.6.0
+|   |   |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|   |   |   |   |-- nbformat >=5.0
+|   |   |   |   |   |-- ipython-genutils * (circular dependency aborted here)
+|   |   |   |   |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|   |   |   |   |   |   |-- attrs >=17.4.0
+|   |   |   |   |   |   |-- importlib-resources >=1.4.0
+|   |   |   |   |   |   |   `-- zipp >=3.1.0
+|   |   |   |   |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|   |   |   |   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |   |   |   `-- traitlets >=4.1 (circular dependency aborted here)
+|   |   |   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |   |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|   |   |   |-- nbformat >=4.4 (circular dependency aborted here)
+|   |   |   |-- pandocfilters >=1.4.1
+|   |   |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|   |   |   |-- testpath *
+|   |   |   `-- traitlets >=5.0 (circular dependency aborted here)
+|   |   |-- nbformat * (circular dependency aborted here)
+|   |   |-- packaging * (circular dependency aborted here)
+|   |   |-- prometheus-client *
+|   |   |-- pywinpty <2
+|   |   |-- pyzmq >=17 (circular dependency aborted here)
+|   |   |-- send2trash *
+|   |   |-- terminado >=0.8.3
+|   |   |   |-- ptyprocess *
+|   |   |   |-- pywinpty >=1.1.0 (circular dependency aborted here)
+|   |   |   `-- tornado >=4 (circular dependency aborted here)
+|   |   |-- tornado >=6.1.0 (circular dependency aborted here)
+|   |   |-- traitlets >=5 (circular dependency aborted here)
+|   |   `-- websocket-client *
+|   |-- prometheus-client * (circular dependency aborted here)
+|   `-- psutil >=5.6,<6.0
+|-- jupyterlab >=3.0,<4.0
+|   |-- ipython *
+|   |   |-- appnope *
+|   |   |-- backcall *
+|   |   |-- black *
+|   |   |   |-- click >=8.0.0
+|   |   |   |   `-- colorama *
+|   |   |   |-- mypy-extensions >=0.4.3
+|   |   |   |-- pathspec >=0.9.0
+|   |   |   |-- platformdirs >=2
+|   |   |   |-- tomli >=1.1.0
+|   |   |   `-- typing-extensions >=3.10.0.0
+|   |   |-- colorama * (circular dependency aborted here)
+|   |   |-- decorator *
+|   |   |-- jedi >=0.16
+|   |   |   `-- parso >=0.8.0,<0.9.0
+|   |   |-- matplotlib-inline *
+|   |   |   `-- traitlets *
+|   |   |-- pexpect >4.3
+|   |   |   `-- ptyprocess >=0.5
+|   |   |-- pickleshare *
+|   |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+|   |   |   `-- wcwidth *
+|   |   |-- pygments *
+|   |   |-- stack-data *
+|   |   |   |-- asttokens *
+|   |   |   |   `-- six *
+|   |   |   |-- executing *
+|   |   |   `-- pure-eval *
+|   |   `-- traitlets >=5 (circular dependency aborted here)
+|   |-- jinja2 >=2.1
+|   |   `-- markupsafe >=2.0
+|   |-- jupyter-core *
+|   |   |-- pywin32 >=1.0
+|   |   `-- traitlets * (circular dependency aborted here)
+|   |-- jupyter-server >=1.4,<2.0
+|   |   |-- anyio >=3.1.0,<4
+|   |   |   |-- idna >=2.8
+|   |   |   `-- sniffio >=1.1
+|   |   |-- argon2-cffi *
+|   |   |   `-- argon2-cffi-bindings *
+|   |   |       `-- cffi >=1.0.1
+|   |   |           `-- pycparser *
+|   |   |-- ipython-genutils *
+|   |   |-- jinja2 * (circular dependency aborted here)
+|   |   |-- jupyter-client >=6.1.1
+|   |   |   |-- entrypoints *
+|   |   |   |-- jupyter-core >=4.6.0 (circular dependency aborted here)
+|   |   |   |-- nest-asyncio >=1.5
+|   |   |   |-- python-dateutil >=2.1
+|   |   |   |   `-- six >=1.5 (circular dependency aborted here)
+|   |   |   |-- pyzmq >=13
+|   |   |   |   |-- cffi * (circular dependency aborted here)
+|   |   |   |   `-- py *
+|   |   |   |-- tornado >=4.1
+|   |   |   `-- traitlets * (circular dependency aborted here)
+|   |   |-- jupyter-core >=4.6.0 (circular dependency aborted here)
+|   |   |-- nbconvert *
+|   |   |   |-- bleach *
+|   |   |   |   |-- packaging *
+|   |   |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+|   |   |   |   |-- six >=1.9.0 (circular dependency aborted here)
+|   |   |   |   `-- webencodings *
+|   |   |   |-- defusedxml *
+|   |   |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|   |   |   |-- jinja2 >=2.4 (circular dependency aborted here)
+|   |   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |   |-- jupyterlab-pygments *
+|   |   |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+|   |   |   |-- mistune >=0.8.1,<2
+|   |   |   |-- nbclient >=0.5.0,<0.6.0
+|   |   |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+|   |   |   |   |-- nbformat >=5.0
+|   |   |   |   |   |-- ipython-genutils * (circular dependency aborted here)
+|   |   |   |   |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+|   |   |   |   |   |   |-- attrs >=17.4.0
+|   |   |   |   |   |   |-- importlib-resources >=1.4.0
+|   |   |   |   |   |   |   `-- zipp >=3.1.0
+|   |   |   |   |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+|   |   |   |   |   |-- jupyter-core * (circular dependency aborted here)
+|   |   |   |   |   `-- traitlets >=4.1 (circular dependency aborted here)
+|   |   |   |   |-- nest-asyncio * (circular dependency aborted here)
+|   |   |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+|   |   |   |-- nbformat >=4.4 (circular dependency aborted here)
+|   |   |   |-- pandocfilters >=1.4.1
+|   |   |   |-- pygments >=2.4.1 (circular dependency aborted here)
+|   |   |   |-- testpath *
+|   |   |   `-- traitlets >=5.0 (circular dependency aborted here)
+|   |   |-- nbformat * (circular dependency aborted here)
+|   |   |-- packaging * (circular dependency aborted here)
+|   |   |-- prometheus-client *
+|   |   |-- pywinpty <2
+|   |   |-- pyzmq >=17 (circular dependency aborted here)
+|   |   |-- send2trash *
+|   |   |-- terminado >=0.8.3
+|   |   |   |-- ptyprocess * (circular dependency aborted here)
+|   |   |   |-- pywinpty >=1.1.0 (circular dependency aborted here)
+|   |   |   `-- tornado >=4 (circular dependency aborted here)
+|   |   |-- tornado >=6.1.0 (circular dependency aborted here)
+|   |   |-- traitlets >=5 (circular dependency aborted here)
+|   |   `-- websocket-client *
+|   |-- jupyterlab-server >=2.3,<3.0
+|   |   |-- babel *
+|   |   |   `-- pytz >=2015.7
+|   |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+|   |   |-- jinja2 >=2.10 (circular dependency aborted here)
+|   |   |-- json5 *
+|   |   |-- jsonschema >=3.0.1 (circular dependency aborted here)
+|   |   |-- jupyter-server >=1.4,<2.0 (circular dependency aborted here)
+|   |   |-- packaging * (circular dependency aborted here)
+|   |   `-- requests *
+|   |       |-- certifi >=2017.4.17
+|   |       |-- charset-normalizer >=2.0.0,<2.1.0
+|   |       |-- idna >=2.5,<4 (circular dependency aborted here)
+|   |       `-- urllib3 >=1.21.1,<1.27
+|   |-- nbclassic >=0.2,<1.0
+|   |   |-- jupyter-server >=1.8,<2.0 (circular dependency aborted here)
+|   |   `-- notebook <7
+|   |       |-- argon2-cffi * (circular dependency aborted here)
+|   |       |-- ipykernel *
+|   |       |   |-- appnope * (circular dependency aborted here)
+|   |       |   |-- debugpy >=1.0.0,<2.0
+|   |       |   |-- ipython >=7.23.1 (circular dependency aborted here)
+|   |       |   |-- jupyter-client <8.0 (circular dependency aborted here)
+|   |       |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+|   |       |   |-- nest-asyncio * (circular dependency aborted here)
+|   |       |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+|   |       |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+|   |       |-- ipython-genutils * (circular dependency aborted here)
+|   |       |-- jinja2 * (circular dependency aborted here)
+|   |       |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+|   |       |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+|   |       |-- nbconvert * (circular dependency aborted here)
+|   |       |-- nbformat * (circular dependency aborted here)
+|   |       |-- nest-asyncio >=1.5 (circular dependency aborted here)
+|   |       |-- prometheus-client * (circular dependency aborted here)
+|   |       |-- pyzmq >=17 (circular dependency aborted here)
+|   |       |-- send2trash >=1.8.0 (circular dependency aborted here)
+|   |       |-- terminado >=0.8.3 (circular dependency aborted here)
+|   |       |-- tornado >=6.1 (circular dependency aborted here)
+|   |       `-- traitlets >=4.2.1 (circular dependency aborted here)
+|   |-- packaging * (circular dependency aborted here)
+|   `-- tornado >=6.1.0 (circular dependency aborted here)
+`-- jupyterlab-topbar >=0.6,<1.0
+    `-- jupyterlab >=3.0,<4.0
+        |-- ipython *
+        |   |-- appnope *
+        |   |-- backcall *
+        |   |-- black *
+        |   |   |-- click >=8.0.0
+        |   |   |   `-- colorama *
+        |   |   |-- mypy-extensions >=0.4.3
+        |   |   |-- pathspec >=0.9.0
+        |   |   |-- platformdirs >=2
+        |   |   |-- tomli >=1.1.0
+        |   |   `-- typing-extensions >=3.10.0.0
+        |   |-- colorama * (circular dependency aborted here)
+        |   |-- decorator *
+        |   |-- jedi >=0.16
+        |   |   `-- parso >=0.8.0,<0.9.0
+        |   |-- matplotlib-inline *
+        |   |   `-- traitlets *
+        |   |-- pexpect >4.3
+        |   |   `-- ptyprocess >=0.5
+        |   |-- pickleshare *
+        |   |-- prompt-toolkit >=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0
+        |   |   `-- wcwidth *
+        |   |-- pygments *
+        |   |-- stack-data *
+        |   |   |-- asttokens *
+        |   |   |   `-- six *
+        |   |   |-- executing *
+        |   |   `-- pure-eval *
+        |   `-- traitlets >=5 (circular dependency aborted here)
+        |-- jinja2 >=2.1
+        |   `-- markupsafe >=2.0
+        |-- jupyter-core *
+        |   |-- pywin32 >=1.0
+        |   `-- traitlets * (circular dependency aborted here)
+        |-- jupyter-server >=1.4,<2.0
+        |   |-- anyio >=3.1.0,<4
+        |   |   |-- idna >=2.8
+        |   |   `-- sniffio >=1.1
+        |   |-- argon2-cffi *
+        |   |   `-- argon2-cffi-bindings *
+        |   |       `-- cffi >=1.0.1
+        |   |           `-- pycparser *
+        |   |-- ipython-genutils *
+        |   |-- jinja2 * (circular dependency aborted here)
+        |   |-- jupyter-client >=6.1.1
+        |   |   |-- entrypoints *
+        |   |   |-- jupyter-core >=4.6.0 (circular dependency aborted here)
+        |   |   |-- nest-asyncio >=1.5
+        |   |   |-- python-dateutil >=2.1
+        |   |   |   `-- six >=1.5 (circular dependency aborted here)
+        |   |   |-- pyzmq >=13
+        |   |   |   |-- cffi * (circular dependency aborted here)
+        |   |   |   `-- py *
+        |   |   |-- tornado >=4.1
+        |   |   `-- traitlets * (circular dependency aborted here)
+        |   |-- jupyter-core >=4.6.0 (circular dependency aborted here)
+        |   |-- nbconvert *
+        |   |   |-- bleach *
+        |   |   |   |-- packaging *
+        |   |   |   |   `-- pyparsing >=2.0.2,<3.0.5 || >3.0.5
+        |   |   |   |-- six >=1.9.0 (circular dependency aborted here)
+        |   |   |   `-- webencodings *
+        |   |   |-- defusedxml *
+        |   |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+        |   |   |-- jinja2 >=2.4 (circular dependency aborted here)
+        |   |   |-- jupyter-core * (circular dependency aborted here)
+        |   |   |-- jupyterlab-pygments *
+        |   |   |   `-- pygments >=2.4.1,<3 (circular dependency aborted here)
+        |   |   |-- mistune >=0.8.1,<2
+        |   |   |-- nbclient >=0.5.0,<0.6.0
+        |   |   |   |-- jupyter-client >=6.1.5 (circular dependency aborted here)
+        |   |   |   |-- nbformat >=5.0
+        |   |   |   |   |-- ipython-genutils * (circular dependency aborted here)
+        |   |   |   |   |-- jsonschema >=2.4,<2.5.0 || >2.5.0
+        |   |   |   |   |   |-- attrs >=17.4.0
+        |   |   |   |   |   |-- importlib-resources >=1.4.0
+        |   |   |   |   |   |   `-- zipp >=3.1.0
+        |   |   |   |   |   `-- pyrsistent >=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2
+        |   |   |   |   |-- jupyter-core * (circular dependency aborted here)
+        |   |   |   |   `-- traitlets >=4.1 (circular dependency aborted here)
+        |   |   |   |-- nest-asyncio * (circular dependency aborted here)
+        |   |   |   `-- traitlets >=4.2 (circular dependency aborted here)
+        |   |   |-- nbformat >=4.4 (circular dependency aborted here)
+        |   |   |-- pandocfilters >=1.4.1
+        |   |   |-- pygments >=2.4.1 (circular dependency aborted here)
+        |   |   |-- testpath *
+        |   |   `-- traitlets >=5.0 (circular dependency aborted here)
+        |   |-- nbformat * (circular dependency aborted here)
+        |   |-- packaging * (circular dependency aborted here)
+        |   |-- prometheus-client *
+        |   |-- pywinpty <2
+        |   |-- pyzmq >=17 (circular dependency aborted here)
+        |   |-- send2trash *
+        |   |-- terminado >=0.8.3
+        |   |   |-- ptyprocess * (circular dependency aborted here)
+        |   |   |-- pywinpty >=1.1.0 (circular dependency aborted here)
+        |   |   `-- tornado >=4 (circular dependency aborted here)
+        |   |-- tornado >=6.1.0 (circular dependency aborted here)
+        |   |-- traitlets >=5 (circular dependency aborted here)
+        |   `-- websocket-client *
+        |-- jupyterlab-server >=2.3,<3.0
+        |   |-- babel *
+        |   |   `-- pytz >=2015.7
+        |   |-- entrypoints >=0.2.2 (circular dependency aborted here)
+        |   |-- jinja2 >=2.10 (circular dependency aborted here)
+        |   |-- json5 *
+        |   |-- jsonschema >=3.0.1 (circular dependency aborted here)
+        |   |-- jupyter-server >=1.4,<2.0 (circular dependency aborted here)
+        |   |-- packaging * (circular dependency aborted here)
+        |   `-- requests *
+        |       |-- certifi >=2017.4.17
+        |       |-- charset-normalizer >=2.0.0,<2.1.0
+        |       |-- idna >=2.5,<4 (circular dependency aborted here)
+        |       `-- urllib3 >=1.21.1,<1.27
+        |-- nbclassic >=0.2,<1.0
+        |   |-- jupyter-server >=1.8,<2.0 (circular dependency aborted here)
+        |   `-- notebook <7
+        |       |-- argon2-cffi * (circular dependency aborted here)
+        |       |-- ipykernel *
+        |       |   |-- appnope * (circular dependency aborted here)
+        |       |   |-- debugpy >=1.0.0,<2.0
+        |       |   |-- ipython >=7.23.1 (circular dependency aborted here)
+        |       |   |-- jupyter-client <8.0 (circular dependency aborted here)
+        |       |   |-- matplotlib-inline >=0.1.0,<0.2.0 (circular dependency aborted here)
+        |       |   |-- nest-asyncio * (circular dependency aborted here)
+        |       |   |-- tornado >=4.2,<7.0 (circular dependency aborted here)
+        |       |   `-- traitlets >=5.1.0,<6.0 (circular dependency aborted here)
+        |       |-- ipython-genutils * (circular dependency aborted here)
+        |       |-- jinja2 * (circular dependency aborted here)
+        |       |-- jupyter-client >=5.3.4 (circular dependency aborted here)
+        |       |-- jupyter-core >=4.6.1 (circular dependency aborted here)
+        |       |-- nbconvert * (circular dependency aborted here)
+        |       |-- nbformat * (circular dependency aborted here)
+        |       |-- nest-asyncio >=1.5 (circular dependency aborted here)
+        |       |-- prometheus-client * (circular dependency aborted here)
+        |       |-- pyzmq >=17 (circular dependency aborted here)
+        |       |-- send2trash >=1.8.0 (circular dependency aborted here)
+        |       |-- terminado >=0.8.3 (circular dependency aborted here)
+        |       |-- tornado >=6.1 (circular dependency aborted here)
+        |       `-- traitlets >=4.2.1 (circular dependency aborted here)
+        |-- packaging * (circular dependency aborted here)
+        `-- tornado >=6.1.0 (circular dependency aborted here)
+jupyterlite 0.1.0a21 tools for building JupyterLite sites
+|-- doit *
+|   |-- cloudpickle *
+|   |-- macfsevents *
+|   `-- pyinotify *
+|-- entrypoints *
+`-- jupyter-core >=4.7
+    |-- pywin32 >=1.0
+    `-- traitlets *
