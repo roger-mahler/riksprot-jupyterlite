@@ -25,7 +25,7 @@ repository = "https://github.com/welfare-state-analytics/welfare_state_analytics
 # FIXME: #137 Remove redundant dependencies
 [tool.poetry.dependencies]
 python = "==3.8.*"
-humlab-penelope = "^0.6.8"
+# humlab-penelope = "^0.6.8"
 jupyterlite = "^0.1.0-alpha.21"
 # jupyterlab = "^3.2.9"
 
