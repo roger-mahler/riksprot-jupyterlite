@@ -1,9 +1,12 @@
-cloudpickle==2.0.0; python_version >= "3.7"
-doit==0.34.1; python_version >= "3.7"
-entrypoints==0.4; python_version >= "3.7"
-jupyter-core==4.9.1; python_version >= "3.7"
-jupyterlite==0.1.0a22; python_version >= "3.7"
-macfsevents==0.8.1; sys_platform == "darwin" and python_version >= "3.7"
-pyinotify==0.9.6; sys_platform == "linux" and python_version >= "3.7"
-pywin32==303; sys_platform == "win32" and platform_python_implementation != "PyPy" and python_version >= "3.7"
-traitlets==5.1.1; python_version >= "3.7"
+bqplot
+ipympl>=0.8.2
+ipywidgets>=7.6
+jupyterlab~=3.2.0
+jupyterlab_miami_nights
+jupyterlite==0.1.0a22
+jupyterlite-p5-kernel==0.1.0a12
+jupyterlite-xeus-lua==0.2.0
+jupyterlite-xeus-wren==0.1.2
+jupyterlite-xeus-sqlite==0.1.2
+plotly>=5,<6
+theme-darcula
