@@ -1,0 +1,121 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "mixins.py",
+      "path": "notebooks/topic_modeling/mixins.py",
+      "size": 1358,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "topic_documents_gui.py",
+      "path": "notebooks/topic_modeling/topic_documents_gui.py",
+      "size": 3495,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": null,
+      "name": "testbed.ipynb",
+      "path": "notebooks/topic_modeling/testbed.ipynb",
+      "size": 43871,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "explore.py",
+      "path": "notebooks/topic_modeling/explore.py",
+      "size": 5520,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "topic_network_gui.py",
+      "path": "notebooks/topic_modeling/topic_network_gui.py",
+      "size": 1886,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": null,
+      "name": "explore.ipynb",
+      "path": "notebooks/topic_modeling/explore.ipynb",
+      "size": 29464,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "__init__.py",
+      "path": "notebooks/topic_modeling/__init__.py",
+      "size": 288,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "load_gui.py",
+      "path": "notebooks/topic_modeling/load_gui.py",
+      "size": 923,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.768862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.204089Z",
+      "mimetype": "text/x-python",
+      "name": "topic_trends_gui.py",
+      "path": "notebooks/topic_modeling/topic_trends_gui.py",
+      "size": 3144,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-12T15:10:56.768862Z",
+  "format": "json",
+  "last_modified": "2022-02-12T15:10:56.768862Z",
+  "mimetype": null,
+  "name": "topic_modeling",
+  "path": "notebooks/topic_modeling",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

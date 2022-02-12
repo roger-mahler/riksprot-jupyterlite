@@ -1,0 +1,85 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "application/zip",
+      "name": "topic_token_weights.zip",
+      "path": "data/transtr\u00f6mer_inferred_model/topic_token_weights.zip",
+      "size": 485,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.760862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "application/zip",
+      "name": "document_topic_weights.zip",
+      "path": "data/transtr\u00f6mer_inferred_model/document_topic_weights.zip",
+      "size": 476,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "application/zip",
+      "name": "topic_token_overview.zip",
+      "path": "data/transtr\u00f6mer_inferred_model/topic_token_overview.zip",
+      "size": 233,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.760862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "application/zip",
+      "name": "documents.zip",
+      "path": "data/transtr\u00f6mer_inferred_model/documents.zip",
+      "size": 312,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.760862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "application/zip",
+      "name": "dictionary.zip",
+      "path": "data/transtr\u00f6mer_inferred_model/dictionary.zip",
+      "size": 2290,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.760862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "application/json",
+      "name": "model_options.json",
+      "path": "data/transtr\u00f6mer_inferred_model/model_options.json",
+      "size": 386,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-12T15:10:56.764862Z",
+  "format": "json",
+  "last_modified": "2022-02-12T15:10:56.764862Z",
+  "mimetype": null,
+  "name": "transtr\u00f6mer_inferred_model",
+  "path": "data/transtr\u00f6mer_inferred_model",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,73 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "text/x-python",
+      "name": "speech_statistics.py",
+      "path": "notebooks/statistics/speech_statistics.py",
+      "size": 6535,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "text/x-python",
+      "name": "speech_statistics_scratchpad.py",
+      "path": "notebooks/statistics/speech_statistics_scratchpad.py",
+      "size": 8069,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": null,
+      "name": "speech_statistics.ipynb",
+      "path": "notebooks/statistics/speech_statistics.ipynb",
+      "size": 8720,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": null,
+      "name": "speech_statistics_scratchpad.ipynb",
+      "path": "notebooks/statistics/speech_statistics_scratchpad.ipynb",
+      "size": 12320,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-12T15:10:56.764862Z",
+      "format": null,
+      "last_modified": "2022-02-12T15:09:52.200089Z",
+      "mimetype": "text/x-python",
+      "name": "__init__.py",
+      "path": "notebooks/statistics/__init__.py",
+      "size": 0,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-12T15:10:56.764862Z",
+  "format": "json",
+  "last_modified": "2022-02-12T15:10:56.764862Z",
+  "mimetype": null,
+  "name": "statistics",
+  "path": "notebooks/statistics",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
