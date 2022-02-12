@@ -5,8 +5,10 @@ ROOT_FOLDER=~/source/welfare-state-analytics/welfare_state_analytics
 ready: requirements.txt build
 
 build: requirements.txt
-	@poetry run jupyter lite build --output-dir=./package --force -y
+	@poetry run jupyter lite build --output-dir=./_output --force -y
+	@rm -rf ./dist ./package
 	@poetry build
+	@mv ./dist ./package
 
 requirements.txt: poetry.lock
 	@poetry update
@@ -37,11 +39,21 @@ source: nuke
 	@cp -r $(ROOT_FOLDER)/westac/riksprot ./westac
 	@touch ./westac/__init__.py
 
+set_version:
+	@current_version=$$(poetry version | cut -d' ' -f2) \
+	 && pushd . > /dev/null \
+	 && cd $(ROOT_FOLDER) \
+	 && westac_version="$$(poetry version | cut -d' ' -f2)" \
+	 && popd > /dev/null \
+	 && if [ "$${current_version}" != "$${current_version}" ] ; then \
+			poetry version "$${westac_version}" ;  \
+		fi
+
 release: source clean ready commit nuke
 
 commit:
 	@git add .
-	@git commit -m "✨✨✨✨✨✨✨✨"
+	@git commit -m "✨✨✨✨"
 	@git push
 
 .PHONY: ready build requirements.txt source release help commit
