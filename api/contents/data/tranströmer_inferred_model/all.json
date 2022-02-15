@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-15T11:25:39.221875Z",
+      "created": "2022-02-15T11:41:46.792520Z",
       "format": null,
-      "last_modified": "2022-02-15T11:24:37.876997Z",
+      "last_modified": "2022-02-15T11:40:47.524075Z",
       "mimetype": "application/zip",
       "name": "topic_token_weights.zip",
       "path": "data/transtr\u00f6mer_inferred_model/topic_token_weights.zip",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:25:39.221875Z",
+      "created": "2022-02-15T11:41:46.792520Z",
       "format": null,
-      "last_modified": "2022-02-15T11:24:37.876997Z",
+      "last_modified": "2022-02-15T11:40:47.524075Z",
       "mimetype": "application/zip",
       "name": "document_topic_weights.zip",
       "path": "data/transtr\u00f6mer_inferred_model/document_topic_weights.zip",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:25:39.221875Z",
+      "created": "2022-02-15T11:41:46.792520Z",
       "format": null,
-      "last_modified": "2022-02-15T11:24:37.876997Z",
+      "last_modified": "2022-02-15T11:40:47.524075Z",
       "mimetype": "application/zip",
       "name": "topic_token_overview.zip",
       "path": "data/transtr\u00f6mer_inferred_model/topic_token_overview.zip",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:25:39.221875Z",
+      "created": "2022-02-15T11:41:46.792520Z",
       "format": null,
-      "last_modified": "2022-02-15T11:24:37.876997Z",
+      "last_modified": "2022-02-15T11:40:47.524075Z",
       "mimetype": "application/zip",
       "name": "documents.zip",
       "path": "data/transtr\u00f6mer_inferred_model/documents.zip",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:25:39.221875Z",
+      "created": "2022-02-15T11:41:46.792520Z",
       "format": null,
-      "last_modified": "2022-02-15T11:24:37.876997Z",
+      "last_modified": "2022-02-15T11:40:47.524075Z",
       "mimetype": "application/zip",
       "name": "dictionary.zip",
       "path": "data/transtr\u00f6mer_inferred_model/dictionary.zip",
@@ -62,9 +62,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:25:39.221875Z",
+      "created": "2022-02-15T11:41:46.792520Z",
       "format": null,
-      "last_modified": "2022-02-15T11:24:37.876997Z",
+      "last_modified": "2022-02-15T11:40:47.524075Z",
       "mimetype": "application/json",
       "name": "model_options.json",
       "path": "data/transtr\u00f6mer_inferred_model/model_options.json",
@@ -73,9 +73,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-15T11:25:39.221875Z",
+  "created": "2022-02-15T11:41:46.792520Z",
   "format": "json",
-  "last_modified": "2022-02-15T11:25:39.221875Z",
+  "last_modified": "2022-02-15T11:41:46.792520Z",
   "mimetype": null,
   "name": "transtr\u00f6mer_inferred_model",
   "path": "data/transtr\u00f6mer_inferred_model",
