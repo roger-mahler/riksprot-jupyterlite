@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.104738Z",
+      "created": "2022-02-15T13:42:06.655650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.104738Z",
+      "last_modified": "2022-02-15T13:42:06.655650Z",
       "mimetype": null,
       "name": "statistics",
       "path": "notebooks/statistics",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.112738Z",
+      "created": "2022-02-15T13:42:06.659650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.112738Z",
+      "last_modified": "2022-02-15T13:42:06.659650Z",
       "mimetype": null,
       "name": "topic_modeling",
       "path": "notebooks/topic_modeling",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.104738Z",
+      "created": "2022-02-15T13:42:06.655650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:53:42.412596Z",
+      "last_modified": "2022-02-15T13:41:04.147122Z",
       "mimetype": "text/x-python",
       "name": "__init__.py",
       "path": "notebooks/__init__.py",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.108738Z",
+      "created": "2022-02-15T13:42:06.655650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.108738Z",
+      "last_modified": "2022-02-15T13:42:06.655650Z",
       "mimetype": null,
       "name": "token_counts",
       "path": "notebooks/token_counts",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.112738Z",
+      "created": "2022-02-15T13:42:06.659650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.112738Z",
+      "last_modified": "2022-02-15T13:42:06.659650Z",
       "mimetype": null,
       "name": "word_trends",
       "path": "notebooks/word_trends",
@@ -61,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-15T11:54:52.112738Z",
+  "created": "2022-02-15T13:42:06.659650Z",
   "format": "json",
-  "last_modified": "2022-02-15T11:54:52.112738Z",
+  "last_modified": "2022-02-15T13:42:06.659650Z",
   "mimetype": null,
   "name": "notebooks",
   "path": "notebooks",

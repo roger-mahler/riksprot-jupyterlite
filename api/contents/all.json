@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.112738Z",
+      "created": "2022-02-15T13:42:06.663651Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.112738Z",
+      "last_modified": "2022-02-15T13:42:06.663651Z",
       "mimetype": null,
       "name": "utility",
       "path": "utility",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.112738Z",
+      "created": "2022-02-15T13:42:06.659650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.112738Z",
+      "last_modified": "2022-02-15T13:42:06.659650Z",
       "mimetype": null,
       "name": "notebooks",
       "path": "notebooks",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.100737Z",
+      "created": "2022-02-15T13:42:06.651650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:52.100737Z",
+      "last_modified": "2022-02-15T13:42:06.651650Z",
       "mimetype": null,
       "name": "data",
       "path": "data",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.100737Z",
+      "created": "2022-02-15T13:42:06.651650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:53:42.412596Z",
+      "last_modified": "2022-02-15T13:41:04.147122Z",
       "mimetype": "text/x-python",
       "name": "__init__.py",
       "path": "__init__.py",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-15T11:54:52.100737Z",
+      "created": "2022-02-15T13:42:06.651650Z",
       "format": null,
-      "last_modified": "2022-02-15T11:54:50.900667Z",
+      "last_modified": "2022-02-15T13:42:05.719629Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
@@ -61,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-15T11:54:52.112738Z",
+  "created": "2022-02-15T13:42:06.663651Z",
   "format": "json",
-  "last_modified": "2022-02-15T11:54:52.112738Z",
+  "last_modified": "2022-02-15T13:42:06.663651Z",
   "mimetype": null,
   "name": "",
   "path": "",
